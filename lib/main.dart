@@ -5,6 +5,7 @@ import 'package:todofluttersqlite/auth_screens/login.dart';
 import 'package:todofluttersqlite/auth_screens/register.dart';
 import 'package:cloudinary_flutter/cloudinary_context.dart';
 import 'package:cloudinary_url_gen/cloudinary.dart';
+import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
 void main() {
   CloudinaryContext.cloudinary = Cloudinary.fromCloudName(cloudName: "demo");
